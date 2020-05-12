@@ -14,7 +14,7 @@ class File(models.Model):
     numberofDownvotes = models.IntegerField(default=0)
 
 class Interview(models.Model):
-    name = models.CharField(max_length=101)
+    name = models.CharField(max_length=141)
     title = models.CharField(max_length=101)
     yearPlaced = models.IntegerField()
     experience = models.CharField(max_length=2000, blank=True, null=True)
