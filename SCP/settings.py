@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'SCPapp',
     'MockSchedularApp',
+    'storages',
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 MIDDLEWARE = [
@@ -137,3 +138,13 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'scp.iiitb@gmail.com'
 EMAIL_HOST_PASSWORD = 'thangu@SCP'
+
+
+
+AWS_ACCESS_KEY_ID = 'AKIAWHGXZOKBG2XA4IXE'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'noaccess1995'
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
