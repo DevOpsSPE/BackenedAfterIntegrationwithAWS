@@ -11,13 +11,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RemoveField(
-            model_name='mockschedular',
-            name='date',
-        ),
-        migrations.AddField(
-            model_name='mockschedular',
-            name='day',
-            field=models.DateField(default=datetime.date.today),
-        ),
+     
     ]
