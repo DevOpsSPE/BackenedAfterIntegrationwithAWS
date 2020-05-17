@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'SCPapp',
     'MockSchedularApp',
-    'storages',
+    'storages',    
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 MIDDLEWARE = [
@@ -147,4 +147,7 @@ AWS_STORAGE_BUCKET_NAME = 'noaccess1995'
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+AWS_S3_REGION_NAME = 'us-east-2' #change to your region
+AWS_S3_SIGNATURE_VERSION = 's3v4'
 #STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

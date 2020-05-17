@@ -19,13 +19,14 @@ class Interview(models.Model):
     yearPlaced = models.IntegerField()
     experience = models.CharField(max_length=2000, blank=True, null=True)
     yearPassout = models.IntegerField()
+    company = models.CharField(max_length=20,default="")
     numberofUpvotes = models.IntegerField(default=0)
 
 
 class Login(models.Model):
     username  =  models.CharField(max_length=20)
     EmailId   =  models.EmailField(max_length=100)
-    role      =  models.CharField(max_length=10)
+    role      =  models.CharField(max_length=10,default="student")
     password =   models.CharField(max_length=32)
     rollNumber=  models.CharField(max_length=10, primary_key = True)
 

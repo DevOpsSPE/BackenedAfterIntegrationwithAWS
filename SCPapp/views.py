@@ -89,6 +89,7 @@ class getData(APIView):
         allFiles = File.objects.all()
         for key in request.data.keys():
             value = request.data.get(key)
+
 from .models import File
 from .serializers import serializers
 
@@ -129,6 +130,11 @@ class patchData(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
+            
+    def get(self, request, id, format=None):
+        File = self.get_object(id)
+        serializer = FileSerializer(File)
+        return Response(serializer.data)
 
 class postData(APIView):
     def post(self, request, *args, **kwargs):        
