@@ -3,8 +3,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
 
-from .models import File,Interview, Login
-from .serializers import FileSerializer, interviewSerializer, loginSerializer
+from .models import File,Interview, Login, CommentsPYQ, CommentsExp
+from .serializers import FileSerializer, interviewSerializer, loginSerializer, CommentsPYQSerializer, CommentsExpSerializer
 
 
 class loginData(APIView):
@@ -162,3 +162,37 @@ def deleteData(request, id):
         return redirect('/getData')
     field.delete()
     return redirect('/getData')
+
+class getPostCommentsPYQ(APIView):
+    def get(self, request, id):
+        allComments = CommentsPYQ.objects.all().filter(pyq=id)
+
+        commentsPYQSerializer = CommentsPYQSerializer(allComments, many=True)
+        return Response(commentsPYQSerializer.data)
+
+    def post(self, request, id):
+        request.data["pyq"]=id
+        commentsPYQSerializer = CommentsPYQSerializer(data=request.data)
+        
+        if commentsPYQSerializer.is_valid():
+            commentsPYQSerializer.save()
+            return Response(commentsPYQSerializer.data, status=status.HTTP_201_CREATED)
+        else:
+            return Response(commentsPYQSerializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class getPostCommentsExp(APIView):
+    def get(self, request, id):
+        allComments = CommentsExp.objects.all().filter(exp=id)
+
+        commentsExpSerializer = CommentsExpSerializer(allComments, many=True)
+        return Response(commentsExpSerializer.data)
+
+    def post(self, request, id):
+        request.data["pyq"]=id
+        commentsExpSerializer = CommentsExpSerializer(data=request.data)
+        
+        if commentsExpSerializer.is_valid():
+            commentsExpSerializer.save()
+            return Response(commentsExpSerializer.data, status=status.HTTP_201_CREATED)
+        else:
+            return Response(commentsExpSerializer.errors, status=status.HTTP_400_BAD_REQUEST)            
