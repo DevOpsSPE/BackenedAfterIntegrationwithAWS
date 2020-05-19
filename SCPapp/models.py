@@ -15,6 +15,7 @@ class File(models.Model):
     numberofUpvotes = models.IntegerField(default=0)
     numberofDownvotes = models.IntegerField(default=0)
     created = models.DateTimeField(auto_now_add=True)
+    verified = models.BooleanField(default=False)
 
 class Interview(models.Model):
     name = models.CharField(max_length=141)
@@ -25,7 +26,7 @@ class Interview(models.Model):
     company = models.CharField(max_length=20,default="")
     numberofUpvotes = models.IntegerField(default=0)
     created = models.DateTimeField(auto_now_add=True)
-
+    verified = models.BooleanField(default=False)
 
 class Login(models.Model):
     username  =  models.CharField(max_length=20)
