@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.views.decorators.csrf import csrf_exempt
 
 
 from django.urls import path, include, re_path
@@ -30,7 +31,7 @@ urlpatterns = [
     path('postData/', views.postData.as_view()),
     path('patchData/<int:id>/', views.patchData.as_view()),
     path('pyq/comments/<int:id>/', views.getPostCommentsPYQ.as_view()),
-    path('deleteData/<id>', views.deleteData),
+    path('deleteData/<id>', csrf_exempt(views.deleteData.as_view())),
     path('interviewData/<int:id>/', views.interviewDataId.as_view()),
     path('interviewData/', views.interviewData.as_view()),
     path('exp/comments/<int:id>/', views.getPostCommentsExp.as_view()),
