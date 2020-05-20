@@ -40,6 +40,7 @@ urlpatterns = [
     path('loginData/', views.loginData.as_view()),
     
     path('getVideoData/', VideoModuleViews.getData.as_view()),
+    path('getVideoData/<int:id>', VideoModuleViews.getDataById.as_view()),
     path('postVideoData/', VideoModuleViews.postData.as_view()),
     path('deleteVideoData/<int:id>', csrf_exempt(VideoModuleViews.deleteData.as_view())),
     path('updateVideoData/<int:id>', VideoModuleViews.updateData.as_view()),

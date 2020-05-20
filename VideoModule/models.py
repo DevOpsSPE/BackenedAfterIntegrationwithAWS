@@ -17,7 +17,8 @@ class VideoContent(models.Model):
     semester = models.IntegerField(default=0)
     uploadedBy = models.CharField(max_length=20, blank=True, null=True)
     speaker = models.CharField(max_length=100, blank=True, null=True)
-    
+    verified = models.BooleanField(default=False)
+
     def __str__(self):
         return self.file.name
 
