@@ -33,6 +33,8 @@ class getData(APIView):
                 allVideoFiles = allVideoFiles.filter(subject=value)
             elif (key == 'year'):
                 allVideoFiles = allVideoFiles.filter(year=value)
+            elif (key == 'speaker'):
+                allVideoFiles = allVideoFiles.filter(speaker__icontains=value)
             elif (key == 'id'):
                 allVideoFiles = allVideoFiles.filter(id=value)
         
