@@ -39,6 +39,18 @@ class getData(APIView):
         serializer = VideoContentSerializer(allVideoFiles, many=True)
         return Response(serializer.data)
 
+class getDataById(APIView):
+    def get_object(self, id):
+        try:
+            return VideoContent.objects.get(id=id)
+        except VideoContent.DoesNotExist:
+            raise Http404
+
+    def get(self, request, id):
+        allVideoFiles = self.get_object(id)
+        serializer = VideoContentSerializer(allVideoFiles)
+        return Response(serializer.data)
+
 class updateData(APIView):
     def get_object(self, id):
         try:

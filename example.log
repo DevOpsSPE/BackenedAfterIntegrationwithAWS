@@ -188,3 +188,6 @@ NameError: name 'response' is not defined
 2020-05-20:19:51:28,49 DEBUG    [selector_events.py:53] Using selector: SelectSelector
 2020-05-20:19:53:40,258 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCP\urls.py changed, reloading.
 2020-05-20:19:53:40,261 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:17:01:03,449 DEBUG    [selector_events.py:53] Using selector: KqueueSelector
+2020-05-20:17:03:39,972 DEBUG    [selector_events.py:53] Using selector: KqueueSelector
+2020-05-20:17:04:00,635 DEBUG    [selector_events.py:53] Using selector: KqueueSelector
