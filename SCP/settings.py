@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+import logging.config
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -153,4 +153,4 @@ AWS_S3_SIGNATURE_VERSION = 's3v4'
 
 
 CSRF_COOKIE_SECURE = True
-#STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+

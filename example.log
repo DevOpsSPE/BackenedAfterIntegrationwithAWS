@@ -1,0 +1,188 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:And this, too
+INFO:root:Getting data...
+INFO:django.utils.autoreload:C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:django.utils.autoreload:C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:django.utils.autoreload:C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:django.utils.autoreload:C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:root:Getting the Data....
+INFO:django.utils.autoreload:C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:django.utils.autoreload:C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+DEBUG:asyncio:Using selector: SelectSelector
+05/20/2020 07:19:08 PM C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+05/20/2020 07:19:08 PM Using selector: SelectSelector
+05/20/2020 07:19:08 PM C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+05/20/2020 07:19:08 PM Using selector: SelectSelector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+05/20/2020 07:19:26 PM Getting the Data....
+05/20/2020 07:19:26 PM Successfully got the data
+05/20/2020 07:21:33 PM C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+05/20/2020 07:21:33 PM Using selector: SelectSelector
+05/20/2020 07:21:33 PM C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+05/20/2020 07:21:33 PM Using selector: SelectSelector
+05/20/2020 07:23:00 PM C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+05/20/2020 07:23:00 PM C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+05/20/2020 07:23:00 PM Using selector: SelectSelector
+05/20/2020 07:23:00 PM Using selector: SelectSelector
+
+
+
+
+
+
+
+
+
+
+
+2020-05-20:19:23:32,17 INFO     [views.py:21] Getting the Data....
+2020-05-20:19:23:32,19 INFO     [views.py:24] Successfully got the data
+2020-05-20:19:29:30,556 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:29:30,558 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:29:30,838 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:29:30,839 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+
+
+
+
+
+
+
+
+
+
+
+
+2020-05-20:19:30:12,436 INFO     [views.py:21] Getting the Data....
+2020-05-20:19:30:15,648 ERROR    [log.py:228] Internal Server Error: /loginData/
+Traceback (most recent call last):
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Sahil Arora\Anaconda3\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py", line 24, in get
+    logging.info("Successfully got the Data  %s" % response.status_code)
+NameError: name 'response' is not defined
+2020-05-20:19:30:42,342 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:30:42,344 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:30:42,464 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:30:42,466 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:30:50,105 INFO     [views.py:21] Getting the Data....
+2020-05-20:19:30:50,106 INFO     [views.py:24] Successfully got the Data  201
+
+2020-05-20:19:32:20,848 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:32:20,849 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:32:21,497 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:32:21,499 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:41:32,871 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:41:32,873 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:41:33,19 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:41:33,21 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2020-05-20:19:41:58,276 INFO     [views.py:20] Getting the Data....
+2020-05-20:19:41:58,277 INFO     [views.py:23] Successfully got the Data  201
+2020-05-20:19:43:16,634 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:43:16,649 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:43:17,153 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:43:17,156 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:44:11,380 INFO     [views.py:27] Trying to post data..
+2020-05-20:19:44:14,69 ERROR    [views.py:34] Data failed to save.. 400
+2020-05-20:19:44:14,69 WARNING  [log.py:228] Bad Request: /loginData/
+2020-05-20:19:45:29,719 INFO     [views.py:27] Trying to post data..
+2020-05-20:19:45:31,770 INFO     [views.py:31] Successfully saved.. 201 
+
+
+
+
+
+2020-05-20:19:51:03,209 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:51:03,213 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:51:05,808 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:51:05,811 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:51:14,583 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:51:14,585 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:51:15,685 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
+2020-05-20:19:51:15,688 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:51:28,49 DEBUG    [selector_events.py:53] Using selector: SelectSelector

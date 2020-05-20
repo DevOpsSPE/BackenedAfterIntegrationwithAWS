@@ -4,29 +4,43 @@ from rest_framework.views import APIView
 from rest_framework import status
 from django.http import Http404
 
+
+
+import logging
+logging.basicConfig(filename='example.log',format='%(asctime)s,%(msecs)d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%Y-%m-%d:%H:%M:%S',
+    level=logging.DEBUG)
 from .models import File,Interview, Login, CommentsPYQ, CommentsExp
 from .serializers import FileSerializer, interviewSerializer, loginSerializer, CommentsPYQSerializer, CommentsExpSerializer
 
 
 class loginData(APIView):
     def get(self, request):
+        # Send the Test!! log message to standard out
+        logging.info('Getting the Data....')
         login = Login.objects.all()
         serializer = loginSerializer(login, many=True)
+        logging.info("Successfully got the Data  %s" % status.HTTP_201_CREATED)
         return Response(serializer.data)
 
+
+ # https://docs.python.org/3/howto/logging.html
+#https://realpython.com/python-logging/
     def post(self, request, *args, **kwargs):
+        logging.info('Trying to post data..')
         login_serializer = loginSerializer(data=request.data)
         if login_serializer.is_valid():
             login_serializer.save()
+            logging.info("Successfully saved.. %s " % status.HTTP_201_CREATED)
             return Response(login_serializer.data, status=status.HTTP_201_CREATED)
         else:
+            logging.error("Data failed to save.. %s" % status.HTTP_400_BAD_REQUEST)
             return Response(login_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class loginDataId(APIView):
     """
     Retrieve, update or delete a snippet instance.
     """
-
     def get_object(self, rollNumber):
         try:
             return Login.objects.get(rollNumber=rollNumber)
