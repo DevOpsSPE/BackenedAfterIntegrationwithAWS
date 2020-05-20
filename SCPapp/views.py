@@ -2,6 +2,7 @@ from rest_framework.parsers import FileUploadParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
+from django.http import Http404
 
 from .models import File,Interview, Login, CommentsPYQ, CommentsExp
 from .serializers import FileSerializer, interviewSerializer, loginSerializer, CommentsPYQSerializer, CommentsExpSerializer
@@ -81,14 +82,19 @@ class interviewDataId(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
+    
+    def delete(self, request, id, format=None):
+        Interview = self.get_object(id)
+        Interview.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 class getData(APIView):
-
 
     def get(self, request, *args, **kwargs):
         allFiles = File.objects.all()
         for key in request.data.keys():
             value = request.data.get(key)
+            
 
 from .models import File
 from .serializers import serializers
@@ -167,7 +173,6 @@ class deleteData(APIView):
         File = self.get_object(id)
         File.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-
 
 class getPostCommentsPYQ(APIView):
     def get(self, request, id):
