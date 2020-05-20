@@ -186,3 +186,5 @@ NameError: name 'response' is not defined
 2020-05-20:19:51:15,685 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCPapp\views.py changed, reloading.
 2020-05-20:19:51:15,688 DEBUG    [selector_events.py:53] Using selector: SelectSelector
 2020-05-20:19:51:28,49 DEBUG    [selector_events.py:53] Using selector: SelectSelector
+2020-05-20:19:53:40,258 INFO     [autoreload.py:222] C:\Users\Sahil Arora\Desktop\BackenedAfterIntegrationwithAWS\SCP\urls.py changed, reloading.
+2020-05-20:19:53:40,261 DEBUG    [selector_events.py:53] Using selector: SelectSelector
