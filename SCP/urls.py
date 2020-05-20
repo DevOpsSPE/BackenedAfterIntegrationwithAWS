@@ -23,6 +23,7 @@ from SCPapp import views as s
 from MockSchedularApp import views as m
 from SCPapp import views
 from django.conf.urls.static import static
+from VideoModule import views as VideoModuleViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -37,6 +38,13 @@ urlpatterns = [
     path('exp/comments/<int:id>/', views.getPostCommentsExp.as_view()),
     path('loginData/<str:rollNumber>/', views.loginDataId.as_view()),
     path('loginData/', views.loginData.as_view()),
+    
+    path('getVideoData/', VideoModuleViews.getData.as_view()),
+    path('postVideoData/', VideoModuleViews.postData.as_view()),
+    path('deleteVideoData/<int:id>', csrf_exempt(VideoModuleViews.deleteData.as_view())),
+    path('updateVideoData/<int:id>', VideoModuleViews.updateData.as_view()),
+    path('commentsOnVideo/<int:id>', VideoModuleViews.getPostComments.as_view()),
+
     re_path(r'^api/students/$', m.students_list),
     re_path(r'^api/students/([0-9]+)$', m.students_detail),
     re_path(r'^api/students/sendmail/([0-9]+)$', m.sendmail),
