@@ -2521,413 +2521,45 @@ GET
 X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
 host:noaccess1995.s3.amazonaws.com
 
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,245 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-3cffa83ee34620c79f45c99c5211277db3b82422cf0810a3470698f78cddc608
-2020-05-20:17:59:20,246 DEBUG    [auth.py:369] Signature:
-bec7a0419e82428c4695e83c3530037ae59efc542f3f06252621c6423f27af74
-2020-05-20:17:59:20,247 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,247 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,247 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,247 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,247 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,248 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,248 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,248 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/Screenshot_from_2020-05-11_13-46-25.png
-2020-05-20:17:59:20,248 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/Screenshot_from_2020-05-11_13-46-25.png
-2020-05-20:17:59:20,249 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,249 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/Screenshot_from_2020-05-11_13-46-25.png
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
+
 
 host
 UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,249 DEBUG    [auth.py:367] StringToSign:
+2020-05-21:06:25:20,895 DEBUG    [auth.py:367] StringToSign:
 AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-33686d3d3b3cd87808f42031f95a81f734c2c86e650c6ba9bb087cae131b9933
-2020-05-20:17:59:20,249 DEBUG    [auth.py:369] Signature:
-624c3c8dc84840b2b367b1bf3965e2aa5d1c99ce11f9de9c9d2709183b7c59d6
-2020-05-20:17:59:20,250 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,250 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,250 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,250 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,250 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,251 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,251 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,251 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/Screenshot_from_2020-05-17_22-49-27.png
-2020-05-20:17:59:20,251 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/Screenshot_from_2020-05-17_22-49-27.png
-2020-05-20:17:59:20,252 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,252 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/Screenshot_from_2020-05-17_22-49-27.png
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,252 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-53feeb5d54cf3ef1f980707e016bd892df22a4bcc47c07b3a9373093df93a324
-2020-05-20:17:59:20,252 DEBUG    [auth.py:369] Signature:
-d6a52e1da5014f3563a78fab172d42300664ad86ebd9a9eb02479562cf10e4b3
-2020-05-20:17:59:20,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,255 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,255 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,255 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,256 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/Screenshot_from_2020-05-18_02-20-03.png
-2020-05-20:17:59:20,256 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/Screenshot_from_2020-05-18_02-20-03.png
-2020-05-20:17:59:20,256 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,256 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/Screenshot_from_2020-05-18_02-20-03.png
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,256 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-bfd50f0582786ac85af57b189361abe0e8032cf435d06f925793acb2a32752b2
-2020-05-20:17:59:20,257 DEBUG    [auth.py:369] Signature:
-731914d9c2e5944c9cfee9dbf6aa5bc367b94ce938f03e0de7ce1aa0ae48d47b
-2020-05-20:17:59:20,258 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,258 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,258 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,258 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,258 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,258 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,259 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,259 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/9CorrMatHeatMap.png
-2020-05-20:17:59:20,259 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/9CorrMatHeatMap.png
-2020-05-20:17:59:20,260 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,260 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/9CorrMatHeatMap.png
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,260 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-986d3a1c2c5d8c237e859de21356b62567b3b62e6bbcd13e77505f53ac7b679a
-2020-05-20:17:59:20,260 DEBUG    [auth.py:369] Signature:
-7b6fc76a72fcbca4462cb0fa93f173255d53e293b42c12b569ec76613a1ec7e4
-2020-05-20:17:59:20,261 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,261 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,261 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,261 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,261 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,262 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,262 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,262 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/128hsgntnsu9bww0y8sz.jpg
-2020-05-20:17:59:20,263 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/128hsgntnsu9bww0y8sz.jpg
-2020-05-20:17:59:20,263 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,263 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/128hsgntnsu9bww0y8sz.jpg
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,263 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-9531ea61df8ebd936880b1998381fa3e0d2e0bbb16a478f1c2df9a6bd1db92ef
-2020-05-20:17:59:20,263 DEBUG    [auth.py:369] Signature:
-b862fbaf34fd8eb39dbcb0c5227c0d20faaf9a9a129545a943f08639ee91fb98
-2020-05-20:17:59:20,266 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,267 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,267 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,267 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,267 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,267 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,268 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,268 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/20RFEval.png
-2020-05-20:17:59:20,268 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/20RFEval.png
-2020-05-20:17:59:20,268 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,269 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/20RFEval.png
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,269 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-d1246f1ddf0e0e44d1185471fce2a529d538b52ec69e3f93163f4d1453e78844
-2020-05-20:17:59:20,269 DEBUG    [auth.py:369] Signature:
-182b02fa3092f7fa214480b03ad99df11a493dcae329a1b214d71047e4586645
-2020-05-20:17:59:20,270 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:17:59:20,270 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:17:59:20,270 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:17:59:20,270 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:17:59:20,270 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:17:59:20,271 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:17:59:20,271 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:17:59:20,271 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/1Lib.png
-2020-05-20:17:59:20,271 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/1Lib.png
-2020-05-20:17:59:20,272 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:17:59:20,272 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/1Lib.png
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T175920Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:17:59:20,272 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T175920Z
-20200520/us-east-2/s3/aws4_request
-c6eb361d1ecf5db8e45dc51033b4909c66702ddfd0b4efd7ef8ced6aab885e83
-2020-05-20:17:59:20,272 DEBUG    [auth.py:369] Signature:
-32fb782360a558d2b8a67e6842b1bf93808ba7e05ee503c15368aa744abaecb6
-2020-05-20:18:00:15,983 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:00:15,983 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:00:15,983 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:00:15,983 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:00:15,984 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:00:15,984 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:00:15,985 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:00:15,985 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:00:15,985 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:00:15,986 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:00:15,986 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_1r0ZGcz.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:00:15,986 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180015Z
-20200520/us-east-2/s3/aws4_request
-d29e7124da4b7294e84d6936bf3ca03b03c6127908d2f920702b8dec5f61c39e
-2020-05-20:18:00:15,986 DEBUG    [auth.py:369] Signature:
-e6f87d267400a5c3b13b3542c2b7a8ae9366bdc8610899119501b9328f21b718
-2020-05-20:18:00:15,987 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:00:15,987 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:00:15,987 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:00:15,987 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:00:15,988 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:00:15,988 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:00:15,988 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:00:15,989 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:00:15,989 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:00:15,989 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:00:15,989 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_agvMp4N.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180015Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:00:15,990 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180015Z
-20200520/us-east-2/s3/aws4_request
-c56ef33528ac4db513bdc174a3ff9bbbda3a61b97dee535d91ee7cda9e40c2fb
-2020-05-20:18:00:15,990 DEBUG    [auth.py:369] Signature:
-24a592cf9ebe700a6cddc3537e5f75be67df4f83c4efa9809edda2e7c88ed311
-2020-05-20:18:00:25,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:00:25,255 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:00:25,255 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:00:25,255 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:00:25,255 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:00:25,256 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:00:25,256 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:00:25,256 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:00:25,256 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:00:25,257 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:00:25,257 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_agvMp4N.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180025Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:00:25,257 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180025Z
-20200520/us-east-2/s3/aws4_request
-9bdaa8776dfa1926d860cca8e59fe68ae13a46adbc243f3cb3dd9708aadb3014
-2020-05-20:18:00:25,257 DEBUG    [auth.py:369] Signature:
-165134c062e190ab880f9371f18bec23dea440461bc2e83feac79931e2f672b4
-2020-05-20:18:00:33,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:00:33,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:00:33,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:00:33,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:00:33,254 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:00:33,255 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:00:33,255 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:00:33,255 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:00:33,256 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:00:33,256 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:00:33,256 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_1r0ZGcz.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180033Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:00:33,257 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180033Z
-20200520/us-east-2/s3/aws4_request
-a8fe788204c24aba9ceab678b73e749da95dee922bae26249d83482b8d851819
-2020-05-20:18:00:33,257 DEBUG    [auth.py:369] Signature:
-239787bdb39edd8a238974f948e236ab0b378cd86b1dbb38eff5be9ee3538efd
-2020-05-20:18:00:46,63 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:00:46,63 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:00:46,63 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:00:46,63 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:00:46,63 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:00:46,63 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:00:46,64 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:00:46,64 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:00:46,64 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:00:46,64 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:00:46,64 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_1r0ZGcz.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180046Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:00:46,64 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180046Z
-20200520/us-east-2/s3/aws4_request
-32610fea5d186d11f291b8f4da89f00c9d83ed93bbfd0da9bdc92e9c698909a8
-2020-05-20:18:00:46,64 DEBUG    [auth.py:369] Signature:
-e9e9313c16ba12dda13c79692d40099d51b0f1972ff235fafffea19c6627406f
-2020-05-20:18:00:51,435 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:00:51,436 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:00:51,436 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:00:51,436 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:00:51,436 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:00:51,437 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:00:51,437 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:00:51,437 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:00:51,437 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:00:51,438 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:00:51,438 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_agvMp4N.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180051Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:00:51,438 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180051Z
-20200520/us-east-2/s3/aws4_request
-77debe77dd7b320311be006a917d5fb55ecf42ea4689e6363d12ec4e95c1bf26
-2020-05-20:18:00:51,438 DEBUG    [auth.py:369] Signature:
-1c8632d1762ec0763f412446f01d761a17538ec8e300969ff4cb730e24675e8c
-2020-05-20:18:01:01,111 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:01:01,112 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:01:01,112 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:01:01,112 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:01:01,112 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:01:01,113 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:01:01,113 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:01:01,113 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:01:01,114 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_agvMp4N.mp4
-2020-05-20:18:01:01,114 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:01:01,114 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_agvMp4N.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180101Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:01:01,114 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180101Z
-20200520/us-east-2/s3/aws4_request
-a4912fc922f3ed93c5eb24738c6e7a9f712d2c33c01278f1e6ffdeb1d7509684
-2020-05-20:18:01:01,115 DEBUG    [auth.py:369] Signature:
-37fcc1e8c9636bb3e29c076a3b4a3bc62e6029a0bddd5a20c54a6898f01298ee
-2020-05-20:18:01:10,54 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:01:10,54 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:01:10,54 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:01:10,54 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:01:10,54 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:01:10,55 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:01:10,55 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:01:10,55 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:01:10,55 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:01:10,56 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:01:10,56 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_1r0ZGcz.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180110Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:01:10,56 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180110Z
-20200520/us-east-2/s3/aws4_request
-cf6b3f577b75f0228d2e0916924e2061a0c4f03bc6d41e9d343c2fae3d0c9096
-2020-05-20:18:01:10,56 DEBUG    [auth.py:369] Signature:
-3ac69594ad83ac5bb5183173ac78334deaa8e00d091cf4194845e57e1b30df0c
-2020-05-20:18:02:07,663 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x10ddb70e0>
-2020-05-20:18:02:07,664 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x10ddb7050>
-2020-05-20:18:02:07,664 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x10e473490>>
-2020-05-20:18:02:07,664 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x10e59b710>>
-2020-05-20:18:02:07,664 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x10ddb0c20>
-2020-05-20:18:02:07,664 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x10ddb0170>
-2020-05-20:18:02:07,664 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x10e59bfd0>>
-2020-05-20:18:02:07,665 DEBUG    [utils.py:1002] Checking for DNS compatible bucket for: https://s3.us-east-2.amazonaws.com/noaccess1995/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:02:07,665 DEBUG    [utils.py:1020] URI updated to: https://noaccess1995.s3.amazonaws.com/BalayyaVid_1r0ZGcz.mp4
-2020-05-20:18:02:07,665 DEBUG    [auth.py:364] Calculating signature using v4 auth.
-2020-05-20:18:02:07,665 DEBUG    [auth.py:365] CanonicalRequest:
-GET
-/BalayyaVid_1r0ZGcz.mp4
-X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWHGXZOKBG2XA4IXE%2F20200520%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20200520T180207Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
-host:noaccess1995.s3.amazonaws.com
-
-host
-UNSIGNED-PAYLOAD
-2020-05-20:18:02:07,665 DEBUG    [auth.py:367] StringToSign:
-AWS4-HMAC-SHA256
-20200520T180207Z
-20200520/us-east-2/s3/aws4_request
-728c66651ce70b030b9363ee309f0d77e29bdba1558f8aa67dfc0f100fa4322f
-2020-05-20:18:02:07,665 DEBUG    [auth.py:369] Signature:
-d93ad2cb28b228d2a989d3de89cfe09c1888e3aa23bea2fce3089133c87f0b5e
-2020-05-20:18:03:42,17 DEBUG    [selector_events.py:53] Using selector: KqueueSelector
+20200521T062520Z
+20200521/us-east-2/s3/aws4_request
+6db16cd9641f481668d60b1ef01326f3f14d640d59d315f44d5d3e23844d7776
+2020-05-21:06:25:20,896 DEBUG    [auth.py:369] Signature:
+217ede74fdda4b28a1df07f6e33c0ea986d288f2e2b8cf814845490fc94e0e0c
+2020-05-21:06:41:53,657 INFO     [views.py:43] Trying: GET: User data by rollNumber xyz
+2020-05-21:06:41:58,553 WARNING  [log.py:228] Not Found: /loginData/xyz/
+2020-05-21:06:41:58,582 INFO     [views.py:28] Trying: POST: User Registration data..
+2020-05-21:06:42:01,945 INFO     [views.py:32] Successful: POST: User got saved.. 201 
+2020-05-21:06:48:02,419 INFO     [views.py:43] Trying: GET: User data by rollNumber test
+2020-05-21:06:48:05,374 WARNING  [log.py:228] Not Found: /loginData/test/
+2020-05-21:06:48:05,418 INFO     [views.py:28] Trying: POST: User Registration data..
+2020-05-21:06:48:08,649 INFO     [views.py:32] Successful: POST: User got saved.. 201 
+2020-05-21:06:49:22,718 INFO     [views.py:43] Trying: GET: User data by rollNumber test
+2020-05-21:06:49:27,397 INFO     [views.py:53] Successful: GET: User data by rollNumber test
+2020-05-21:06:49:47,437 INFO     [views.py:43] Trying: GET: User data by rollNumber test1
+2020-05-21:06:49:50,438 WARNING  [log.py:228] Not Found: /loginData/test1/
+2020-05-21:06:49:50,453 INFO     [views.py:28] Trying: POST: User Registration data..
+2020-05-21:06:49:54,21 INFO     [views.py:32] Successful: POST: User got saved.. 201 
+2020-05-21:06:55:10,4 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.
+2020-05-21:06:56:14,859 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-21:06:56:17,720 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-21:06:56:21,711 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:06:56:21,712 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:07:16:27,330 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:07:16:27,330 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:07:16:36,767 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-21:07:16:36,768 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-21:07:16:43,324 INFO     [views.py:90] Trying: GET: Interview Exp by id 4
+2020-05-21:07:16:46,308 INFO     [views.py:99] Successful: GET: Interview Exp by id 4
+2020-05-21:07:16:46,350 INFO     [views.py:230] Trying: GET: Comments for Interview Exp by id 4
+2020-05-21:07:16:46,350 INFO     [views.py:234] Successful: GET: Comments for Interview Exp by id 4
+2020-05-21:07:48:34,860 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019127
+2020-05-21:07:48:43,873 WARNING  [log.py:228] Not Found: /loginData/MT2019127/
+2020-05-21:07:48:43,910 INFO     [views.py:28] Trying: POST: User Registration data..
+2020-05-21:07:48:48,991 INFO     [views.py:32] Successful: POST: User got saved.. 201 
