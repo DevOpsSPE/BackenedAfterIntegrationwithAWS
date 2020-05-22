@@ -4,6 +4,8 @@ from django.forms import ModelForm
 from django.core.files.base import File
 from django.db.models import CharField, Model
 from datetime import datetime
+from django.utils import timezone
+
 #adding a comment
 class File(models.Model):
     file = models.FileField(blank=False, null=False)
@@ -14,7 +16,7 @@ class File(models.Model):
     semester = models.IntegerField()
     numberofUpvotes = models.IntegerField(default=0)
     numberofDownvotes = models.IntegerField(default=0)
-    created = models.DateTimeField(auto_now_add=True)
+    #created = models.DateTimeField(auto_now_add=True)
     verified = models.BooleanField(default=False)
 
 class Interview(models.Model):
@@ -25,7 +27,7 @@ class Interview(models.Model):
     yearPassout = models.IntegerField()
     company = models.CharField(max_length=20,default="")
     numberofUpvotes = models.IntegerField(default=0)
-    created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(default=timezone.now)
     verified = models.BooleanField(default=False)
 
 class Login(models.Model):
@@ -48,7 +50,7 @@ class CommentsPYQ(models.Model):
     author = models.CharField(max_length=20)
     commentBody = models.CharField(default="", max_length=1000)
     pyq = models.ForeignKey(File, default=None, on_delete=models.CASCADE, null=True)
-    created = models.DateTimeField(auto_now_add=True)
+    #created = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
         return self.author
@@ -57,7 +59,7 @@ class CommentsExp(models.Model):
     author = models.CharField(max_length=20)
     commentBody = models.CharField(default="", max_length=1000)
     exp = models.ForeignKey(Interview, default=None, on_delete=models.CASCADE, null=True)
-    created = models.DateTimeField(auto_now_add=True)
+    #created = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
         return self.author        

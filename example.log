@@ -2563,3 +2563,98 @@ AWS4-HMAC-SHA256
 2020-05-21:07:48:43,873 WARNING  [log.py:228] Not Found: /loginData/MT2019127/
 2020-05-21:07:48:43,910 INFO     [views.py:28] Trying: POST: User Registration data..
 2020-05-21:07:48:48,991 INFO     [views.py:32] Successful: POST: User got saved.. 201 
+2020-05-21:10:09:38,20 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019120
+2020-05-21:10:09:40,963 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019120
+2020-05-21:10:18:23,773 ERROR    [log.py:228] Internal Server Error: /commentsOnVideo/2
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/commentsOnVideo/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2020-05-21:10:29:00,643 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:10:29:00,670 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:10:29:06,501 INFO     [views.py:157] Trying: GET: PYQ by id 8
+2020-05-21:10:29:10,63 INFO     [views.py:176] Successful: GET: PYQ by id 8
+2020-05-21:10:29:10,107 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 8
+2020-05-21:10:29:10,500 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 8
+2020-05-21:10:31:00,686 INFO     [views.py:164] Trying: PATCH: PYQ by id 8
+2020-05-21:10:31:00,686 INFO     [views.py:157] Trying: GET: PYQ by id 8
+2020-05-21:10:31:04,345 INFO     [views.py:170] Successful: PATCH: PYQ by id 8, status 201
+2020-05-21:10:31:27,235 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-21:10:31:27,236 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-21:12:29:53,938 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-21:12:29:56,400 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-21:12:30:07,252 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:12:30:07,252 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:12:30:22,774 INFO     [views.py:157] Trying: GET: PYQ by id 6
+2020-05-21:12:30:25,177 INFO     [views.py:176] Successful: GET: PYQ by id 6
+2020-05-21:12:30:25,270 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 6
+2020-05-21:12:30:25,270 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 6
+2020-05-21:12:30:31,126 INFO     [views.py:164] Trying: PATCH: PYQ by id 6
+2020-05-21:12:30:31,126 INFO     [views.py:157] Trying: GET: PYQ by id 6
+2020-05-21:12:30:34,479 INFO     [views.py:170] Successful: PATCH: PYQ by id 6, status 201
+2020-05-21:12:36:26,821 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 6
+2020-05-21:12:36:29,918 INFO     [views.py:222] Successful: POST: Comments for PYQ by id 6, status 201
+2020-05-21:12:36:30,108 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 6
+2020-05-21:12:36:30,108 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 6
+2020-05-21:12:40:11,863 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:12:40:11,889 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:12:41:10,679 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:12:41:10,681 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:12:42:43,835 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:12:42:43,836 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:13:03:39,84 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-21:13:03:42,426 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-21:13:04:08,333 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:13:04:08,334 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:13:04:37,168 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:13:04:37,169 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:13:04:46,894 INFO     [views.py:157] Trying: GET: PYQ by id 17
+2020-05-21:13:04:49,384 INFO     [views.py:176] Successful: GET: PYQ by id 17
+2020-05-21:13:04:49,462 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 17
+2020-05-21:13:04:49,884 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 17
+2020-05-21:13:05:00,654 INFO     [views.py:164] Trying: PATCH: PYQ by id 17
+2020-05-21:13:05:00,654 INFO     [views.py:157] Trying: GET: PYQ by id 17
+2020-05-21:13:05:03,506 INFO     [views.py:170] Successful: PATCH: PYQ by id 17, status 201
+2020-05-21:13:05:11,535 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 17
+2020-05-21:13:05:14,253 INFO     [views.py:222] Successful: POST: Comments for PYQ by id 17, status 201
+2020-05-21:13:05:14,314 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 17
+2020-05-21:13:05:14,315 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 17
+2020-05-21:13:05:28,132 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:13:05:28,133 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:13:05:47,795 INFO     [views.py:157] Trying: GET: PYQ by id 13
+2020-05-21:13:05:50,330 INFO     [views.py:176] Successful: GET: PYQ by id 13
+2020-05-21:13:05:50,460 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 13
+2020-05-21:13:05:50,464 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 13
+2020-05-21:13:06:01,867 INFO     [views.py:157] Trying: GET: PYQ by id 15
+2020-05-21:13:06:04,333 INFO     [views.py:176] Successful: GET: PYQ by id 15
+2020-05-21:13:06:04,396 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 15
+2020-05-21:13:06:04,397 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 15
+2020-05-21:13:06:44,566 INFO     [views.py:200] Trying: DELETE: PYQ by id 15
+2020-05-21:13:06:44,567 INFO     [views.py:193] Trying: GET: PYQ by id 15
+2020-05-21:13:06:48,688 INFO     [views.py:203] Successful: DELETE: PYQ by id 15, status 204
+2020-05-21:13:07:00,824 INFO     [views.py:164] Trying: PATCH: PYQ by id 13
+2020-05-21:13:07:00,825 INFO     [views.py:157] Trying: GET: PYQ by id 13
+2020-05-21:13:07:03,656 INFO     [views.py:170] Successful: PATCH: PYQ by id 13, status 201
+2020-05-21:13:07:10,387 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-21:13:07:10,387 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-21:13:07:38,987 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-21:13:07:38,987 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-21:13:07:50,214 INFO     [views.py:90] Trying: GET: Interview Exp by id 16
+2020-05-21:13:07:52,810 INFO     [views.py:99] Successful: GET: Interview Exp by id 16
+2020-05-21:13:07:52,944 INFO     [views.py:230] Trying: GET: Comments for Interview Exp by id 16
+2020-05-21:13:07:52,945 INFO     [views.py:234] Successful: GET: Comments for Interview Exp by id 16
+2020-05-21:13:08:07,734 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-21:13:08:07,734 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-21:13:08:51,416 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-21:13:08:51,419 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-21:13:09:01,978 INFO     [views.py:90] Trying: GET: Interview Exp by id 16
+2020-05-21:13:09:04,444 INFO     [views.py:99] Successful: GET: Interview Exp by id 16
+2020-05-21:13:09:04,565 INFO     [views.py:230] Trying: GET: Comments for Interview Exp by id 16
+2020-05-21:13:09:04,566 INFO     [views.py:234] Successful: GET: Comments for Interview Exp by id 16
+2020-05-22:10:38:57,2 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.

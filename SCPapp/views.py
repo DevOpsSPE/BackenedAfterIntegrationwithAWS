@@ -7,8 +7,8 @@ from django.http import Http404
 
 
 import logging
-logging.basicConfig(filename='example.log',format='%(asctime)s,%(msecs)d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
-    datefmt='%Y-%m-%d:%H:%M:%S',
+logging.basicConfig(filename='pyq.log',format='%(asctime)s,%(msecs)d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
     level=logging.INFO)
 from .models import File,Interview, Login, CommentsPYQ, CommentsExp
 from .serializers import FileSerializer, interviewSerializer, loginSerializer, CommentsPYQSerializer, CommentsExpSerializer
