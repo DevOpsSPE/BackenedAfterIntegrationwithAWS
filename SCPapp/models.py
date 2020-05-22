@@ -16,7 +16,7 @@ class File(models.Model):
     semester = models.IntegerField()
     numberofUpvotes = models.IntegerField(default=0)
     numberofDownvotes = models.IntegerField(default=0)
-    #created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(default=timezone.now)
     verified = models.BooleanField(default=False)
 
 class Interview(models.Model):
@@ -50,7 +50,7 @@ class CommentsPYQ(models.Model):
     author = models.CharField(max_length=20)
     commentBody = models.CharField(default="", max_length=1000)
     pyq = models.ForeignKey(File, default=None, on_delete=models.CASCADE, null=True)
-    #created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(default=timezone.now)
     
     def __str__(self):
         return self.author
@@ -59,7 +59,7 @@ class CommentsExp(models.Model):
     author = models.CharField(max_length=20)
     commentBody = models.CharField(default="", max_length=1000)
     exp = models.ForeignKey(Interview, default=None, on_delete=models.CASCADE, null=True)
-    #created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(default=timezone.now)
     
     def __str__(self):
         return self.author        
