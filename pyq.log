@@ -1,0 +1,405 @@
+2020-05-22 10:57:21,55 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.
+2020-05-22 10:58:06 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.
+2020-05-22 11:07:08,784 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-22 11:07:13,757 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-22 11:17:09,139 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-22 11:17:09,327 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-22 11:17:22,649 ERROR    [log.py:228] Internal Server Error: /interviewData/
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column SCPapp_interview.created does not exist
+LINE 1: ...."company", "SCPapp_interview"."numberofUpvotes", "SCPapp_in...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 72, in get
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column SCPapp_interview.created does not exist
+LINE 1: ...."company", "SCPapp_interview"."numberofUpvotes", "SCPapp_in...
+                                                             ^
+
+2020-05-22 11:30:30,344 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-22 11:30:30,376 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-22 11:30:48,52 ERROR    [log.py:228] Internal Server Error: /interviewData/
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column SCPapp_interview.created does not exist
+LINE 1: ...."company", "SCPapp_interview"."numberofUpvotes", "SCPapp_in...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 72, in get
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column SCPapp_interview.created does not exist
+LINE 1: ...."company", "SCPapp_interview"."numberofUpvotes", "SCPapp_in...
+                                                             ^
+
+2020-05-22 11:30:51,707 WARNING  [log.py:228] Not Found: /favicon.ico
+2020-05-22 11:36:42,220 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 11:36:42,220 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 11:36:59,118 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column SCPapp_file.created does not exist
+LINE 1: ...berofUpvotes", "SCPapp_file"."numberofDownvotes", "SCPapp_fi...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column SCPapp_file.created does not exist
+LINE 1: ...berofUpvotes", "SCPapp_file"."numberofDownvotes", "SCPapp_fi...
+                                                             ^
+
+2020-05-22 11:51:22,835 ERROR    [log.py:228] Internal Server Error: /admin/SCPapp/interview/
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column SCPapp_interview.created does not exist
+LINE 1: ...."company", "SCPapp_interview"."numberofUpvotes", "SCPapp_in...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1796, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column SCPapp_interview.created does not exist
+LINE 1: ...."company", "SCPapp_interview"."numberofUpvotes", "SCPapp_in...
+                                                             ^
+2020-05-22 11:07:08,784 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+
+2020-05-22 13:32:35,942 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 13:32:36,1 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 13:32:39,416 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 13:32:39,416 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 13:32:44,741 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column SCPapp_file.created does not exist
+LINE 1: ...berofUpvotes", "SCPapp_file"."numberofDownvotes", "SCPapp_fi...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column SCPapp_file.created does not exist
+LINE 1: ...berofUpvotes", "SCPapp_file"."numberofDownvotes", "SCPapp_fi...
+                                                             ^
+
+2020-05-22 13:32:46,266 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column SCPapp_file.created does not exist
+LINE 1: ...berofUpvotes", "SCPapp_file"."numberofDownvotes", "SCPapp_fi...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/usr/local/lib/python3.6/dist-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1151, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sravya/.local/lib/python3.6/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column SCPapp_file.created does not exist
+LINE 1: ...berofUpvotes", "SCPapp_file"."numberofDownvotes", "SCPapp_fi...
+                                                             ^
+
+2020-05-22 13:49:24,573 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 13:49:24,587 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 13:52:54,899 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 13:52:54,900 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 14:06:06,216 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 14:07:52,389 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-22 19:38:12,584 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 14:56:50,990 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 14:56:50,991 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 15:01:27,744 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 15:02:43,984 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 15:03:20,66 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 15:37:44,601 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-22 15:37:44,615 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-22 15:38:47,598 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 15:38:50,621 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 15:38:54,796 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 16:06:48,413 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-22 16:06:48,414 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-22 16:07:35,660 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCPapp/models.py changed, reloading.
+2020-05-22 16:12:00,306 INFO     [autoreload.py:222] /home/sravya/SPEW/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-22 21:54:19,17 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-22 21:54:19,18 INFO     [views.py:71] Successful: GET: Interview Exp Data
