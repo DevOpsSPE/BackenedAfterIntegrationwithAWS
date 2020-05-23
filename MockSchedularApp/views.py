@@ -78,7 +78,7 @@ def sendmail(request, pk):
     EVENT = {
         'summary': 'Mock Interview - IIITB',
         'start':  {'dateTime': request.data["date"] + 'T' + request.data["time"] + '%s' % GMT_OFF},
-        'end':    {'dateTime': '2020-05-15T22:00:00%s' % GMT_OFF},
+        'end':    {'dateTime': request.data["date"] + 'T' + request.data["time"] + '%s' % GMT_OFF},
         'attendees': [
             {'email': request.data["email"]},
             {'email': request.data["email1"]},
