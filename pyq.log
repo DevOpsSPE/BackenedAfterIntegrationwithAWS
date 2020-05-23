@@ -1021,3 +1021,314 @@ ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or googl
 2020-05-23 06:49:00,987 INFO     [views.py:222] Successful: POST: Comments for PYQ by id 19, status 201
 2020-05-23 06:49:01,0 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
 2020-05-23 06:49:01,1 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-23 08:32:50,20 WARNING  [log.py:228] Not Found: /api
+2020-05-23 08:33:46,27 WARNING  [log.py:228] Not Found: /
+2020-05-23 08:33:51,142 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-23 08:33:51,142 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-23 09:15:27,242 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-23 09:15:27,243 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-23 09:21:42,416 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-23 09:21:42,417 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-23 14:42:21,414 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-23 14:44:26,968 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-23 14:47:21,834 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-23 14:47:21,836 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-23 14:50:37,491 ERROR    [log.py:228] Internal Server Error: /getVideoData/19/
+Traceback (most recent call last):
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 47, in get_object
+    return VideoContent.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+VideoModule.models.VideoContent.DoesNotExist: VideoContent matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 52, in get
+    allVideoFiles = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 49, in get_object
+    raise Http404
+NameError: name 'Http404' is not defined
+2020-05-23 14:51:10,545 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 14:51:41,820 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 14:55:08,151 WARNING  [log.py:228] Not Found: /getVideoData/19/
+2020-05-23 14:58:10,615 WARNING  [log.py:228] Not Found: /getVideoData/2/
+2020-05-23 15:01:35,901 WARNING  [log.py:228] Not Found: /getVideoData/2/
+2020-05-23 15:04:11,161 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-23 15:06:28,608 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-23 15:06:47,134 ERROR    [log.py:228] Internal Server Error: /getVideoData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 42, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/test/testcases.py", line 144, in __call__
+    raise AssertionError(self.message)
+AssertionError: Database queries to 'default' are not allowed in SimpleTestCase subclasses. Either subclass TestCase or TransactionTestCase to ensure proper test isolation or add 'default' to VideoModule.tests.TestViews.databases to silence this failure.
+2020-05-23 15:06:47,198 ERROR    [log.py:228] Internal Server Error: /getVideoData/2/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 52, in get
+    allVideoFiles = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 47, in get_object
+    return VideoContent.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/test/testcases.py", line 144, in __call__
+    raise AssertionError(self.message)
+AssertionError: Database queries to 'default' are not allowed in SimpleTestCase subclasses. Either subclass TestCase or TransactionTestCase to ensure proper test isolation or add 'default' to VideoModule.tests.TestViews.databases to silence this failure.
+2020-05-23 15:16:58,241 ERROR    [log.py:228] Internal Server Error: /getVideoData/2
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/getVideoData/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2020-05-23 15:17:07,848 ERROR    [log.py:228] Internal Server Error: /updateVideoData/2
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/updateVideoData/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2020-05-23 15:18:31,894 WARNING  [log.py:228] Unsupported Media Type: /updateVideoData/4/
+2020-05-23 15:19:47,101 WARNING  [log.py:228] Unsupported Media Type: /updateVideoData/4/
+2020-05-23 15:30:08,267 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 15:30:15,603 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 15:30:20,387 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 15:30:31,241 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 15:31:15,747 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 15:44:57,622 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:45:35,952 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:46:40,651 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:47:46,914 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:49:56,822 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:51:09,427 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:57:12,15 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 15:57:43,708 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:02:49,613 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:05:05,973 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 16:05:16,309 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 16:05:30,852 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:06:12,925 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 16:06:20,434 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:07:01,772 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:07:27,717 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:08:43,243 ERROR    [log.py:228] Internal Server Error: /postVideoData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 16, in post
+    print(request.data.uploadedBy)
+AttributeError: 'QueryDict' object has no attribute 'uploadedBy'
+2020-05-23 16:09:23,242 ERROR    [log.py:228] Internal Server Error: /postVideoData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 16, in post
+    print(request.data.uploadedBy)
+AttributeError: 'QueryDict' object has no attribute 'uploadedBy'
+2020-05-23 16:09:59,702 ERROR    [log.py:228] Internal Server Error: /postVideoData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 16, in post
+    print(request.data.uploadedBy)
+AttributeError: 'QueryDict' object has no attribute 'uploadedBy'
+2020-05-23 16:10:25,507 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 16:10:32,981 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:10:52,200 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 16:10:58,576 WARNING  [log.py:228] Bad Request: /postVideoData/
+2020-05-23 16:12:55,452 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 16:19:05,276 WARNING  [log.py:228] Method Not Allowed: /deleteVideoData/8/
+2020-05-23 16:25:46,849 ERROR    [log.py:228] Internal Server Error: /deleteVideoData/5/
+Traceback (most recent call last):
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 77, in get_object
+    return VideoContent.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 417, in get
+    self.model._meta.object_name
+VideoModule.models.VideoContent.DoesNotExist: VideoContent matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 82, in delete
+    Video = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py", line 79, in get_object
+    raise Http404
+NameError: name 'Http404' is not defined
+2020-05-23 16:29:07,634 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-23 16:29:10,46 INFO     [views.py:53] Successful: GET: User data by rollNumber 1
+2020-05-23 16:29:12,596 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-23 16:29:12,596 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-23 16:29:17,750 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-23 16:29:20,298 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-23 16:29:20,350 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-23 16:29:20,351 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-23 16:29:45,827 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-23 16:29:48,137 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-23 17:25:43,77 WARNING  [log.py:228] Not Found: /comments
+2020-05-23 17:27:34,811 WARNING  [log.py:228] Not Found: /commentsOnVideo
+2020-05-23 17:30:40,383 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 17:30:55,49 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 17:30:58,986 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/VideoModule/views.py changed, reloading.
+2020-05-23 17:53:09,33 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-23 17:53:44,396 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-23 17:54:01,152 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-23 17:56:11,938 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-23 17:57:53,343 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.

@@ -39,12 +39,12 @@ urlpatterns = [
     path('loginData/<str:rollNumber>/', views.loginDataId.as_view()),
     path('loginData/', views.loginData.as_view()),
     
-    path('getVideoData/', VideoModuleViews.getData.as_view()),
-    path('getVideoData/<int:id>/', VideoModuleViews.getDataById.as_view()),
-    path('postVideoData/', VideoModuleViews.postData.as_view()),
-    path('deleteVideoData/<int:id>/', csrf_exempt(VideoModuleViews.deleteData.as_view())),
-    path('updateVideoData/<int:id>/', VideoModuleViews.updateData.as_view()),
-    path('commentsOnVideo/<int:id>/', VideoModuleViews.getPostComments.as_view()),
+    path('getVideoData/', VideoModuleViews.getData.as_view(), name="getVideoData"),
+    path('getVideoData/<int:id>/', VideoModuleViews.getDataById.as_view(), name="getVideoDataId"),
+    path('postVideoData/', VideoModuleViews.postData.as_view(), name="postVideoData"),
+    path('deleteVideoData/<int:id>/', csrf_exempt(VideoModuleViews.deleteData.as_view()), name="deleteVideoData"),
+    path('updateVideoData/<int:id>/', VideoModuleViews.updateData.as_view(), name="updateVideoData"),
+    path('commentsOnVideo/<int:id>/', VideoModuleViews.getPostComments.as_view(), name="commentsOnVideo"),
 
     re_path(r'^api/students/$', m.students_list),
     re_path(r'^api/students/([0-9]+)$', m.students_detail),
