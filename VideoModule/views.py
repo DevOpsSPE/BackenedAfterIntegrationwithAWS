@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.http import Http404
 from rest_framework.parsers import FileUploadParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -98,3 +98,14 @@ class getPostComments(APIView):
             return Response(commentsSerializer.data, status=status.HTTP_201_CREATED)
         else:
             return Response(commentsSerializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    def get_comment(self, id):
+        try:
+            return Comments.objects.get(id=id)
+        except Comments.DoesNotExist:
+            raise Http404
+
+    def delete(self, request, id):
+        Comment = self.get_comment(id)
+        Comment.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
