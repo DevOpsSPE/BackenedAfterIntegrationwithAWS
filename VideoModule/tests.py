@@ -57,7 +57,6 @@ class TestViews(unittest.TestCase):
 		self.assertEquals(response.status_code, 201)
 
 	def test_post_video_data_followed_by_delete(self):
-		#TEST CASE GIVING BAD REQUEST ERROR.
 		fake_file = ContentFile(b"Some file content")
 		fake_file.name = 'myfile.mp4'
 		post_data = {        

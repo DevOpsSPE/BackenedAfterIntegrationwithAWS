@@ -1332,3 +1332,1588 @@ NameError: name 'Http404' is not defined
 2020-05-23 17:54:01,152 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
 2020-05-23 17:56:11,938 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
 2020-05-23 17:57:53,343 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/settings.py changed, reloading.
+2020-05-24 10:48:22,228 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 10:50:59,918 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 11:06:58,134 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 11:10:35,320 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 11:24:57,344 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 11:26:10,710 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 11:28:42,856 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCP/urls.py changed, reloading.
+2020-05-24 11:32:32,456 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:32:32,456 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:32:32,947 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:32:32,947 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:32:44,306 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:32:44,306 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:34:46,250 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:34:46,251 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:34:50,23 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:34:50,393 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 11:35:12,730 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:35:12,730 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:36:00,568 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:36:02,125 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 11:36:37,309 WARNING  [log.py:228] Not Found: /
+2020-05-24 11:37:27,711 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:37:27,712 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:37:39,880 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:37:43,670 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 11:38:46,551 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 11:38:46,563 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:38:49,764 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 11:39:53,853 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:39:53,855 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:39:57,42 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:39:57,351 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 11:39:57,358 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 11:39:57,358 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:39:57,942 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 11:46:37,793 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-24 11:46:53,681 INFO     [views.py:53] Successful: GET: User data by rollNumber 1
+2020-05-24 11:46:59,231 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:46:59,233 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:47:10,218 INFO     [views.py:157] Trying: GET: PYQ by id 21
+2020-05-24 11:47:18,937 INFO     [views.py:176] Successful: GET: PYQ by id 21
+2020-05-24 11:47:19,33 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 21
+2020-05-24 11:47:19,35 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 21
+2020-05-24 11:56:39,94 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:56:39,96 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:56:42,197 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:56:42,488 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 11:56:42,496 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 11:56:42,497 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:56:43,376 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 11:56:43,384 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 11:56:43,388 WARNING  [views.py:188] Bad Request: POST: PYQ, status 400
+2020-05-24 11:56:43,389 WARNING  [log.py:228] Bad Request: /postData/
+2020-05-24 11:57:23,529 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:57:23,530 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:58:22,717 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:58:22,719 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:58:40,760 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 11:58:40,865 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:58:40,868 ERROR    [log.py:228] Internal Server Error: /getData/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 174, in get
+    File = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 159, in get_object
+    return File.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 11:58:40,897 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 11:58:40,898 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:58:40,900 ERROR    [log.py:228] Internal Server Error: /patchData/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 165, in patch
+    File = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 159, in get_object
+    return File.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 11:58:40,931 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 11:58:40,933 WARNING  [views.py:188] Bad Request: POST: PYQ, status 400
+2020-05-24 11:58:40,933 WARNING  [log.py:228] Bad Request: /postData/
+2020-05-24 11:59:12,866 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:59:12,866 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:59:12,874 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 11:59:12,940 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:59:12,943 ERROR    [log.py:228] Internal Server Error: /getData/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 174, in get
+    File = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 159, in get_object
+    return File.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 11:59:12,974 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 11:59:12,975 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:59:12,977 ERROR    [log.py:228] Internal Server Error: /patchData/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 165, in patch
+    File = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 159, in get_object
+    return File.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 11:59:13,8 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 11:59:13,10 WARNING  [views.py:188] Bad Request: POST: PYQ, status 400
+2020-05-24 11:59:13,11 WARNING  [log.py:228] Bad Request: /postData/
+2020-05-24 11:59:47,212 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 11:59:47,214 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 11:59:50,432 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:59:50,724 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 11:59:50,732 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 11:59:50,733 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 11:59:51,378 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 11:59:51,383 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 11:59:51,387 WARNING  [views.py:188] Bad Request: POST: PYQ, status 400
+2020-05-24 11:59:51,388 WARNING  [log.py:228] Bad Request: /postData/
+2020-05-24 12:00:37,340 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:00:37,342 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:00:41,114 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:00:41,857 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:00:41,865 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:00:41,865 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:00:42,708 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:00:42,716 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:00:45,861 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:01:14,427 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:01:14,427 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:01:17,197 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:01:17,510 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:01:17,517 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:01:17,517 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:01:18,387 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:01:18,391 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:01:21,347 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:01:21,352 INFO     [views.py:200] Trying: DELETE: PYQ by id 25
+2020-05-24 12:01:21,352 INFO     [views.py:193] Trying: GET: PYQ by id 25
+2020-05-24 12:01:23,191 INFO     [views.py:203] Successful: DELETE: PYQ by id 25, status 204
+2020-05-24 12:03:58,780 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:03:58,781 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:04:01,917 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:04:02,230 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:04:02,238 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:04:02,239 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:04:02,558 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:04:02,558 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:04:03,190 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:04:03,198 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:04:06,64 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:04:06,67 INFO     [views.py:200] Trying: DELETE: PYQ by id 26
+2020-05-24 12:04:06,68 INFO     [views.py:193] Trying: GET: PYQ by id 26
+2020-05-24 12:04:07,641 INFO     [views.py:203] Successful: DELETE: PYQ by id 26, status 204
+2020-05-24 12:04:33,519 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:04:33,520 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:06:44,379 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:06:44,381 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:07:02,414 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:07:02,506 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:07:02,508 ERROR    [log.py:228] Internal Server Error: /getData/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 174, in get
+    File = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 159, in get_object
+    return File.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:07:02,537 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:07:02,538 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:07:02,540 ERROR    [log.py:228] Internal Server Error: /pyq/comments/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 213, in get
+    return Response(commentsPYQSerializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:07:02,578 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:07:02,578 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:07:02,580 ERROR    [log.py:228] Internal Server Error: /patchData/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 165, in patch
+    File = self.get_object(id)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 159, in get_object
+    return File.objects.get(id=id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 411, in get
+    num = len(clone)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 258, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:07:02,641 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:07:02,642 ERROR    [log.py:228] Internal Server Error: /pyq/comments/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 217, in post
+    request.data["pyq"]=id
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+2020-05-24 12:07:02,659 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:07:02,663 ERROR    [log.py:228] Internal Server Error: /postData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 184, in post
+    file_serializer.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 948, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 433, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 784, in save_base
+    force_update, using, update_fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 887, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/base.py", line 926, in _do_insert
+    using=using, raw=raw,
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1204, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1389, in execute_sql
+    with self.connection.cursor() as cursor:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:07:33,924 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:07:33,925 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:08:11,286 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:08:12,105 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:08:12,114 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:08:12,115 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:08:12,552 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:08:12,552 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:08:17,24 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:08:17,30 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:08:17,40 ERROR    [log.py:228] Internal Server Error: /pyq/comments/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 217, in post
+    request.data["pyq"]=id
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+2020-05-24 12:08:17,89 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:08:27,915 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:08:27,918 INFO     [views.py:200] Trying: DELETE: PYQ by id 27
+2020-05-24 12:08:27,918 INFO     [views.py:193] Trying: GET: PYQ by id 27
+2020-05-24 12:08:35,268 INFO     [views.py:203] Successful: DELETE: PYQ by id 27, status 204
+2020-05-24 12:09:29,623 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:09:29,623 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:09:35,137 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:09:35,466 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:09:35,474 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:09:35,475 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:09:35,926 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:09:35,927 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:09:36,922 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:09:36,929 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:09:36,945 ERROR    [log.py:228] Internal Server Error: /pyq/comments/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 217, in post
+    request.data["pyq"]=id
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+2020-05-24 12:09:37,7 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:09:41,26 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:09:41,31 INFO     [views.py:200] Trying: DELETE: PYQ by id 28
+2020-05-24 12:09:41,31 INFO     [views.py:193] Trying: GET: PYQ by id 28
+2020-05-24 12:09:42,718 INFO     [views.py:203] Successful: DELETE: PYQ by id 28, status 204
+2020-05-24 12:11:07,0 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:11:07,0 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:11:11,283 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:11:11,606 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:11:11,615 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:11:11,616 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:11:11,998 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:11:11,998 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:11:12,723 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:11:12,728 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:11:12,736 ERROR    [log.py:228] Internal Server Error: /pyq/comments/19/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 217, in post
+    request.data["pyq"]=id
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 467, in __setitem__
+    self._assert_mutable()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/http/request.py", line 464, in _assert_mutable
+    raise AttributeError("This QueryDict instance is immutable")
+AttributeError: This QueryDict instance is immutable
+2020-05-24 12:11:12,786 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:11:15,940 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:11:15,945 INFO     [views.py:200] Trying: DELETE: PYQ by id 29
+2020-05-24 12:11:15,945 INFO     [views.py:193] Trying: GET: PYQ by id 29
+2020-05-24 12:11:17,771 INFO     [views.py:203] Successful: DELETE: PYQ by id 29, status 204
+2020-05-24 12:13:11,876 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.
+2020-05-24 12:13:26,476 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:13:26,477 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:13:30,284 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:13:30,821 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:13:30,828 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:13:30,829 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:13:31,205 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:13:31,205 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:13:36,575 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:13:36,580 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:13:37,40 INFO     [views.py:222] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:13:37,44 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:13:47,131 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:13:47,136 INFO     [views.py:200] Trying: DELETE: PYQ by id 30
+2020-05-24 12:13:47,136 INFO     [views.py:193] Trying: GET: PYQ by id 30
+2020-05-24 12:13:49,120 INFO     [views.py:203] Successful: DELETE: PYQ by id 30, status 204
+2020-05-24 12:17:12,701 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:17:12,703 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:17:15,883 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:17:16,241 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:17:16,250 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:17:16,252 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:17:16,575 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:17:16,575 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:17:17,352 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:17:17,356 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:17:17,672 INFO     [views.py:222] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:17:18,26 WARNING  [log.py:228] Not Found: /commentsOnVideo/41/
+2020-05-24 12:17:18,32 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:17:21,631 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:17:21,636 INFO     [views.py:200] Trying: DELETE: PYQ by id 31
+2020-05-24 12:17:21,637 INFO     [views.py:193] Trying: GET: PYQ by id 31
+2020-05-24 12:17:23,265 INFO     [views.py:203] Successful: DELETE: PYQ by id 31, status 204
+2020-05-24 12:20:24,57 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:20:24,58 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:20:43,58 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:20:43,514 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:20:43,519 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:20:43,520 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:20:43,974 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:20:43,974 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:20:44,694 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:20:44,699 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:20:45,397 INFO     [views.py:222] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:20:45,729 WARNING  [log.py:228] Not Found: /commentsOnVideo/42/
+2020-05-24 12:20:45,739 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:20:49,450 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:20:49,457 INFO     [views.py:200] Trying: DELETE: PYQ by id 32
+2020-05-24 12:20:49,457 INFO     [views.py:193] Trying: GET: PYQ by id 32
+2020-05-24 12:20:51,60 INFO     [views.py:203] Successful: DELETE: PYQ by id 32, status 204
+2020-05-24 12:21:20,318 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.
+2020-05-24 12:24:14,778 INFO     [autoreload.py:222] /Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py changed, reloading.
+2020-05-24 12:25:00,186 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:25:00,186 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:25:03,750 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:25:04,72 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:25:04,80 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:25:04,81 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:25:04,376 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:25:04,376 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:25:05,27 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:25:05,30 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:25:05,647 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:25:05,985 WARNING  [log.py:228] Not Found: /commentsOnVideo/43/
+2020-05-24 12:25:05,990 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:25:08,550 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:25:08,560 INFO     [views.py:200] Trying: DELETE: PYQ by id 33
+2020-05-24 12:25:08,560 INFO     [views.py:193] Trying: GET: PYQ by id 33
+2020-05-24 12:25:10,174 INFO     [views.py:203] Successful: DELETE: PYQ by id 33, status 204
+2020-05-24 12:25:27,666 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:25:27,668 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:26:08,486 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:26:08,488 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:26:11,472 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:26:11,754 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:26:11,763 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:26:11,764 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:26:12,69 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:26:12,69 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:26:12,638 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:26:12,644 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:26:13,292 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:26:13,941 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:26:16,761 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:26:16,768 INFO     [views.py:200] Trying: DELETE: PYQ by id 34
+2020-05-24 12:26:16,768 INFO     [views.py:193] Trying: GET: PYQ by id 34
+2020-05-24 12:26:18,376 INFO     [views.py:203] Successful: DELETE: PYQ by id 34, status 204
+2020-05-24 12:28:42,26 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-24 12:28:42,32 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-24 12:28:56,905 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:28:56,905 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:29:00,208 ERROR    [log.py:228] Internal Server Error: /getData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 153, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:29:00,209 ERROR    [log.py:228] Internal Server Error: /interviewData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 72, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:29:02,329 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-24 12:29:02,329 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-24 12:29:02,388 ERROR    [log.py:228] Internal Server Error: /interviewData/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/swatinmurthy/Desktop/2nd semester/SPE/Project/DjangoRestFramework/BackenedAfterIntegrationwithAWS/SCPapp/views.py", line 72, in get
+    return Response(serializer.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 760, in data
+    ret = super().data
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/rest_framework/serializers.py", line 678, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1149, in execute_sql
+    cursor = self.connection.cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 260, in cursor
+    return self._cursor()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 236, in _cursor
+    self.ensure_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 220, in ensure_connection
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/base/base.py", line 197, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/backends/postgresql/base.py", line 185, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+django.db.utils.OperationalError: could not translate host name "database-1.cuiqvd5rsvj1.us-east-2.rds.amazonaws.com" to address: nodename nor servname provided, or not known
+
+2020-05-24 12:34:09,804 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 19
+2020-05-24 12:34:09,806 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 19
+2020-05-24 12:34:12,369 WARNING  [log.py:228] Not Found: /exp/comments
+2020-05-24 12:34:14,791 WARNING  [log.py:228] Not Found: /exp/comments/
+2020-05-24 12:34:27,809 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-24 12:34:27,810 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-24 12:40:36,535 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 37
+2020-05-24 12:40:36,538 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 37
+2020-05-24 12:43:04,546 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:43:04,548 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:43:44,782 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:43:51,857 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:43:51,866 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 36
+2020-05-24 12:43:51,867 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 36
+2020-05-24 12:43:54,180 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:43:54,181 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:43:55,583 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:43:55,583 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:44:02,807 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:44:02,816 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 36
+2020-05-24 12:44:10,501 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 36, status 201
+2020-05-24 12:44:18,451 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:44:25,100 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:44:29,811 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:44:52,871 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:44:52,876 INFO     [views.py:200] Trying: DELETE: PYQ by id 36
+2020-05-24 12:44:52,877 INFO     [views.py:193] Trying: GET: PYQ by id 36
+2020-05-24 12:45:27,927 INFO     [views.py:203] Successful: DELETE: PYQ by id 36, status 204
+2020-05-24 12:46:13,864 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-24 12:46:13,865 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-24 12:47:06,3 INFO     [views.py:43] Trying: GET: User data by rollNumber 202
+2020-05-24 12:47:55,489 INFO     [views.py:53] Successful: GET: User data by rollNumber 202
+2020-05-24 12:50:32,331 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-24 12:51:12,557 INFO     [views.py:53] Successful: GET: User data by rollNumber 1
+2020-05-24 12:51:39,673 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:51:39,675 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:51:43,752 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:51:44,30 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:51:44,38 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 36
+2020-05-24 12:51:44,40 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 36
+2020-05-24 12:51:44,350 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:51:44,351 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:51:44,645 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-24 12:51:44,646 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-24 12:51:44,968 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-24 12:51:45,286 INFO     [views.py:53] Successful: GET: User data by rollNumber 1
+2020-05-24 12:51:45,292 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:51:45,292 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:51:46,55 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:51:46,62 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 36
+2020-05-24 12:51:46,843 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 36, status 201
+2020-05-24 12:51:47,680 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:51:48,625 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:51:49,563 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:51:53,479 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:51:53,484 INFO     [views.py:200] Trying: DELETE: PYQ by id 37
+2020-05-24 12:51:53,484 INFO     [views.py:193] Trying: GET: PYQ by id 37
+2020-05-24 12:51:55,818 INFO     [views.py:203] Successful: DELETE: PYQ by id 37, status 204
+2020-05-24 12:52:52,931 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-24 12:52:52,931 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-24 12:52:56,136 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:52:56,464 INFO     [views.py:176] Successful: GET: PYQ by id 19
+2020-05-24 12:52:56,473 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 36
+2020-05-24 12:52:56,474 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 36
+2020-05-24 12:52:56,807 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-24 12:52:56,808 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-24 12:52:57,90 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-24 12:52:57,90 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-24 12:52:57,454 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-24 12:52:58,45 INFO     [views.py:53] Successful: GET: User data by rollNumber 1
+2020-05-24 12:52:58,51 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-24 12:52:58,51 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-24 12:52:58,705 INFO     [views.py:170] Successful: PATCH: PYQ by id 19, status 201
+2020-05-24 12:52:58,713 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 36
+2020-05-24 12:52:59,382 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 36, status 201
+2020-05-24 12:53:00,642 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-24 12:53:01,283 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-24 12:53:01,930 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-24 12:53:05,137 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-24 12:53:05,148 INFO     [views.py:200] Trying: DELETE: PYQ by id 38
+2020-05-24 12:53:05,155 INFO     [views.py:193] Trying: GET: PYQ by id 38
+2020-05-24 12:53:07,120 INFO     [views.py:203] Successful: DELETE: PYQ by id 38, status 204
