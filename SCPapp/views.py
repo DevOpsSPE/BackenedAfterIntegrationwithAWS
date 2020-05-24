@@ -214,7 +214,6 @@ class getPostCommentsPYQ(APIView):
 
     def post(self, request, id):
         logging.info('Trying: POST: Comments for PYQ by id %s' % id)
-        request.data["pyq"]=id
         commentsPYQSerializer = CommentsPYQSerializer(data=request.data)
         
         if commentsPYQSerializer.is_valid():
@@ -224,6 +223,17 @@ class getPostCommentsPYQ(APIView):
         else:
             logging.warning('Bad Request: POST: Comments for PYQ by id %s, status %s' % (id,status.HTTP_400_BAD_REQUEST))
             return Response(commentsPYQSerializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        
+    def get_comment(self, id):
+        try:
+            return CommentsPYQ.objects.get(id=id)
+        except CommentsPYQ.DoesNotExist:
+            raise Http404
+
+    def delete(self, request, id):
+        CommentsPYQ = self.get_comment(id)
+        CommentsPYQ.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 class getPostCommentsExp(APIView):
     def get(self, request, id):
@@ -236,7 +246,6 @@ class getPostCommentsExp(APIView):
 
     def post(self, request, id):
         logging.info('Trying: POST: Comments for Interview Exp by id %s' % id)
-        request.data["pyq"]=id
         commentsExpSerializer = CommentsExpSerializer(data=request.data)
         
         if commentsExpSerializer.is_valid():
@@ -245,4 +254,15 @@ class getPostCommentsExp(APIView):
             return Response(commentsExpSerializer.data, status=status.HTTP_201_CREATED)
         else:
             logging.warning('Bad Request: POST: Comments for Interview Exp by id %s, status %s' % (id,status.HTTP_400_BAD_REQUEST))
-            return Response(commentsExpSerializer.errors, status=status.HTTP_400_BAD_REQUEST)            
+            return Response(commentsExpSerializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    def get_comment(self, id):
+        try:
+            return CommentsExp.objects.get(id=id)
+        except CommentsExp.DoesNotExist:
+            raise Http404
+
+    def delete(self, request, id):
+        CommentsExp = self.get_comment(id)
+        CommentsExp.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
