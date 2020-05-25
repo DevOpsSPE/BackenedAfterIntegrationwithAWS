@@ -74,7 +74,7 @@ def sendmail(request, pk):
         creds = tools.run_flow(flow, store,flags)
     GCAL = build('calendar', 'v3', http=creds.authorize(Http()))
 
-    GMT_OFF = '+05:50'      # PDT/MST/GMT-7
+    GMT_OFF = '+05:30'      # PDT/MST/GMT-7
     EVENT = {
         'summary': 'Mock Interview - IIITB',
         'start':  {'dateTime': request.data["date"] + 'T' + request.data["time"] + '%s' % GMT_OFF},
