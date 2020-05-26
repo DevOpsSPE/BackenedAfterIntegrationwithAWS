@@ -2917,3 +2917,151 @@ django.db.utils.OperationalError: could not translate host name "database-1.cuiq
 2020-05-24 12:53:05,148 INFO     [views.py:200] Trying: DELETE: PYQ by id 38
 2020-05-24 12:53:05,155 INFO     [views.py:193] Trying: GET: PYQ by id 38
 2020-05-24 12:53:07,120 INFO     [views.py:203] Successful: DELETE: PYQ by id 38, status 204
+2020-05-24 12:55:45,805 WARNING  [log.py:228] Not Found: /
+2020-05-26 10:46:38,570 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-26 10:46:42,295 WARNING  [log.py:228] Not Found: /loginData/1/
+2020-05-26 10:47:28,531 WARNING  [log.py:228] Not Found: /
+2020-05-26 10:47:37,25 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-26 10:47:37,28 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-26 10:48:47,529 WARNING  [log.py:228] Not Found: /videoData/
+2020-05-26 10:49:02,16 WARNING  [log.py:228] Not Found: /
+2020-05-26 10:50:22,806 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019120
+2020-05-26 10:50:24,986 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019120
+2020-05-26 11:27:51,154 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-26 11:27:51,156 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-26 11:28:00,486 WARNING  [log.py:228] Not Found: /
+2020-05-26 11:28:19,750 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-26 11:28:19,751 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-26 11:28:25,451 WARNING  [log.py:228] Not Found: /
+2020-05-26 11:38:23,737 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-26 11:38:26,76 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-26 11:41:30,997 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-26 11:41:30,999 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-26 11:41:33,392 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-26 11:41:33,680 WARNING  [log.py:228] Not Found: /getData/19/
+2020-05-26 11:41:33,685 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 36
+2020-05-26 11:41:33,686 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 36
+2020-05-26 11:41:33,968 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-26 11:41:33,969 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-26 11:41:34,246 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-26 11:41:34,246 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-26 11:41:34,574 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-26 11:41:34,898 WARNING  [log.py:228] Not Found: /loginData/1/
+2020-05-26 11:41:34,901 INFO     [views.py:164] Trying: PATCH: PYQ by id 19
+2020-05-26 11:41:34,901 INFO     [views.py:157] Trying: GET: PYQ by id 19
+2020-05-26 11:41:35,218 WARNING  [log.py:228] Not Found: /patchData/19/
+2020-05-26 11:41:35,223 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 36
+2020-05-26 11:41:35,553 WARNING  [views.py:256] Bad Request: POST: Comments for Interview Exp by id 36, status 400
+2020-05-26 11:41:35,553 WARNING  [log.py:228] Bad Request: /exp/comments/36/
+2020-05-26 11:41:35,557 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-26 11:41:35,842 WARNING  [views.py:224] Bad Request: POST: Comments for PYQ by id 19, status 400
+2020-05-26 11:41:35,842 WARNING  [log.py:228] Bad Request: /pyq/comments/19/
+2020-05-26 11:41:35,845 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-26 11:41:38,830 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-26 11:41:38,839 INFO     [views.py:200] Trying: DELETE: PYQ by id 44
+2020-05-26 11:41:38,839 INFO     [views.py:193] Trying: GET: PYQ by id 44
+2020-05-26 11:41:40,370 INFO     [views.py:203] Successful: DELETE: PYQ by id 44, status 204
+2020-05-26 11:41:41,661 WARNING  [log.py:228] Bad Request: /commentsOnVideo/60/
+2020-05-26 11:42:41,921 WARNING  [log.py:228] Bad Request: /commentsOnVideo/60/
+2020-05-26 11:44:16,605 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-26 11:44:16,607 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-26 11:44:22,479 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-26 11:44:22,480 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-26 11:45:15,652 INFO     [views.py:68] Trying: GET: Interview Exp Data
+2020-05-26 11:45:15,654 INFO     [views.py:71] Successful: GET: Interview Exp Data
+2020-05-26 11:46:52,848 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-26 11:46:52,850 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-26 11:46:55,814 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:46:56,135 INFO     [views.py:176] Successful: GET: PYQ by id 45
+2020-05-26 11:46:56,141 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 43
+2020-05-26 11:46:56,142 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 43
+2020-05-26 11:46:56,470 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 19
+2020-05-26 11:46:56,471 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 19
+2020-05-26 11:46:56,791 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-26 11:46:56,791 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-26 11:46:57,114 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-26 11:46:57,398 WARNING  [log.py:228] Not Found: /loginData/1/
+2020-05-26 11:46:57,401 INFO     [views.py:164] Trying: PATCH: PYQ by id 45
+2020-05-26 11:46:57,401 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:46:58,8 INFO     [views.py:170] Successful: PATCH: PYQ by id 45, status 201
+2020-05-26 11:46:58,15 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 43
+2020-05-26 11:46:58,626 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 43, status 201
+2020-05-26 11:46:59,204 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 19
+2020-05-26 11:46:59,770 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 19, status 201
+2020-05-26 11:47:00,372 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-26 11:47:02,984 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-26 11:47:02,991 INFO     [views.py:200] Trying: DELETE: PYQ by id 46
+2020-05-26 11:47:02,991 INFO     [views.py:193] Trying: GET: PYQ by id 46
+2020-05-26 11:47:04,498 INFO     [views.py:203] Successful: DELETE: PYQ by id 46, status 204
+2020-05-26 11:47:15,930 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-26 11:47:15,930 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-26 11:47:18,631 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:47:18,954 INFO     [views.py:176] Successful: GET: PYQ by id 45
+2020-05-26 11:47:18,963 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 43
+2020-05-26 11:47:18,966 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 43
+2020-05-26 11:47:19,296 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 45
+2020-05-26 11:47:19,297 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 45
+2020-05-26 11:47:19,609 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-26 11:47:19,610 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-26 11:47:19,891 INFO     [views.py:43] Trying: GET: User data by rollNumber 1
+2020-05-26 11:47:20,206 WARNING  [log.py:228] Not Found: /loginData/1/
+2020-05-26 11:47:20,211 INFO     [views.py:164] Trying: PATCH: PYQ by id 45
+2020-05-26 11:47:20,212 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:47:20,847 INFO     [views.py:170] Successful: PATCH: PYQ by id 45, status 201
+2020-05-26 11:47:20,854 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 43
+2020-05-26 11:47:21,415 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 43, status 201
+2020-05-26 11:47:22,51 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 45
+2020-05-26 11:47:22,682 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 45, status 201
+2020-05-26 11:47:23,231 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-26 11:47:25,775 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-26 11:47:25,778 INFO     [views.py:200] Trying: DELETE: PYQ by id 47
+2020-05-26 11:47:25,778 INFO     [views.py:193] Trying: GET: PYQ by id 47
+2020-05-26 11:47:27,320 INFO     [views.py:203] Successful: DELETE: PYQ by id 47, status 204
+2020-05-26 11:48:05,784 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-26 11:48:05,784 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-26 11:48:08,393 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:48:08,673 INFO     [views.py:176] Successful: GET: PYQ by id 45
+2020-05-26 11:48:08,679 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 43
+2020-05-26 11:48:08,679 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 43
+2020-05-26 11:48:09,9 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 45
+2020-05-26 11:48:09,10 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 45
+2020-05-26 11:48:09,325 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-26 11:48:09,326 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-26 11:48:09,640 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-26 11:48:09,961 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-26 11:48:09,965 INFO     [views.py:164] Trying: PATCH: PYQ by id 45
+2020-05-26 11:48:09,965 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:48:10,592 INFO     [views.py:170] Successful: PATCH: PYQ by id 45, status 201
+2020-05-26 11:48:10,600 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 43
+2020-05-26 11:48:11,212 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 43, status 201
+2020-05-26 11:48:11,839 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 45
+2020-05-26 11:48:12,445 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 45, status 201
+2020-05-26 11:48:13,41 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-26 11:48:15,551 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-26 11:48:15,557 INFO     [views.py:200] Trying: DELETE: PYQ by id 48
+2020-05-26 11:48:15,558 INFO     [views.py:193] Trying: GET: PYQ by id 48
+2020-05-26 11:48:17,5 INFO     [views.py:203] Successful: DELETE: PYQ by id 48, status 204
+2020-05-26 11:48:36,325 INFO     [views.py:135] Trying: GET: PYQ Data
+2020-05-26 11:48:36,326 INFO     [views.py:152] Successful: GET: PYQ Data
+2020-05-26 11:48:39,100 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:48:39,387 INFO     [views.py:176] Successful: GET: PYQ by id 45
+2020-05-26 11:48:39,405 INFO     [views.py:240] Trying: GET: Comments for Interview Exp by id 43
+2020-05-26 11:48:39,409 INFO     [views.py:244] Successful: GET: Comments for Interview Exp by id 43
+2020-05-26 11:48:39,733 INFO     [views.py:208] Trying: GET: Comments for PYQ by id 45
+2020-05-26 11:48:39,734 INFO     [views.py:212] Successful: GET: Comments for PYQ by id 45
+2020-05-26 11:48:40,50 INFO     [views.py:20] Trying to get User Login Data....
+2020-05-26 11:48:40,50 INFO     [views.py:23] Successfully got the User Login Data  201
+2020-05-26 11:48:40,362 INFO     [views.py:43] Trying: GET: User data by rollNumber MT2019114
+2020-05-26 11:48:40,677 INFO     [views.py:53] Successful: GET: User data by rollNumber MT2019114
+2020-05-26 11:48:40,681 INFO     [views.py:164] Trying: PATCH: PYQ by id 45
+2020-05-26 11:48:40,681 INFO     [views.py:157] Trying: GET: PYQ by id 45
+2020-05-26 11:48:41,307 INFO     [views.py:170] Successful: PATCH: PYQ by id 45, status 201
+2020-05-26 11:48:41,313 INFO     [views.py:248] Trying: POST: Comments for Interview Exp by id 43
+2020-05-26 11:48:41,901 INFO     [views.py:253] Successful: POST: Comments for Interview Exp by id 43, status 201
+2020-05-26 11:48:42,522 INFO     [views.py:216] Trying: POST: Comments for PYQ by id 45
+2020-05-26 11:48:43,149 INFO     [views.py:221] Successful: POST: Comments for PYQ by id 45, status 201
+2020-05-26 11:48:43,771 INFO     [views.py:181] Trying: POST: PYQ
+2020-05-26 11:48:46,367 INFO     [views.py:185] Successful: POST: PYQ, status 201
+2020-05-26 11:48:46,370 INFO     [views.py:200] Trying: DELETE: PYQ by id 49
+2020-05-26 11:48:46,371 INFO     [views.py:193] Trying: GET: PYQ by id 49
+2020-05-26 11:48:47,909 INFO     [views.py:203] Successful: DELETE: PYQ by id 49, status 204
