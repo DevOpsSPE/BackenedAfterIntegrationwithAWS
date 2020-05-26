@@ -55,13 +55,13 @@ class TestViews(unittest.TestCase):
 	def setUp(self):
 		self.client = Client()
 		self.get_url = reverse('getData')
-		self.get_id_url = reverse('getDataId', args=[19])
+		self.get_id_url = reverse('getDataId', args=[45])
 		self.post_url = reverse('postData')
-		self.update_url = reverse('patchData', args=[19])
-		self.pyq_comments_url = reverse('pyqComments', args=[19])
-		self.exp_comments_url = reverse('expCommentsId', args=[36])
+		self.update_url = reverse('patchData', args=[45])
+		self.pyq_comments_url = reverse('pyqComments', args=[45])
+		self.exp_comments_url = reverse('expCommentsId', args=[43])
 		self.login_data = reverse('loginData')
-		self.login_data_id = reverse('loginDataRoll', args=['1'])
+		self.login_data_id = reverse('loginDataRoll', args=['MT2019114'])
 
 	def test_get_data(self):
 		response = self.client.get(self.get_url)
@@ -111,7 +111,7 @@ class TestViews(unittest.TestCase):
 			"author": "Jim Halpert",
 			"commentBody": "test comment",
 			"created": "2020-05-23T06:49:00.697246Z",
-			"pyq": 19
+			"pyq": 45
 		}
 		response = self.client.post(self.pyq_comments_url, data=post_data)
 		comment_to_delete = response.data['id']
@@ -129,7 +129,7 @@ class TestViews(unittest.TestCase):
 			"author": "Pamela Beesly",
 			"commentBody": "Hey Jim",
 			"created": "2020-05-23T06:49:00.697246Z",
-			"exp": 37
+			"exp": 43
 		}
 		response = self.client.post(self.exp_comments_url, data=post_data)
 		comment_to_delete = response.data['id']
@@ -145,4 +145,4 @@ class TestViews(unittest.TestCase):
 	def test_login_data_id(self):
 		response = self.client.get(self.login_data_id)
 		self.assertEquals(response.status_code, 200)
-		self.assertEquals(response.data['username'], 'arjun')
+		self.assertEquals(response.data['username'], 'Sravya M')

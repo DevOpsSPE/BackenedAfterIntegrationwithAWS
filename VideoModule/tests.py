@@ -35,11 +35,10 @@ class TestViews(unittest.TestCase):
 	def setUp(self):
 		self.client = Client()
 		self.get_url = reverse('getVideoData')
-		self.get_id_url = reverse('getVideoDataId', args=['2'])
+		self.get_id_url = reverse('getVideoDataId', args=['60'])
 		self.post_url = reverse('postVideoData')
-		self.update_url = reverse('updateVideoData', args=['4'])
-		#self.delete_url = reverse('deleteVideoData', args=['4'])
-		self.comments_url = reverse('commentsOnVideo', args=['2'])
+		self.update_url = reverse('updateVideoData', args=['60'])
+		self.comments_url = reverse('commentsOnVideo', args=['60'])
 
 	def test_get_video_data(self):
 		response = self.client.get(self.get_url)
@@ -86,7 +85,7 @@ class TestViews(unittest.TestCase):
 		post_data = {
 			"author": "Dwight Schrute",
 			"commentBody": "It is your birthday.",
-			"videocontent": 2
+			"videocontent": 60
 		}
 		response = self.client.post(self.comments_url, data=post_data)
 		comment_to_delete = response.data['id']
